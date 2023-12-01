@@ -1,0 +1,155 @@
+/*footer subscribe start*/
+.footer .subscribe-row {
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  padding: 80px 0;
+}
+
+.footer .footer-row-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 200px;
+}
+
+.footer .subscribe-title,
+.footer .contact-title {
+  font-size: 30px;
+  max-width: 500px;
+  font-weight: 500;
+  line-height: 1.3;
+  /* display: none; */
+}
+
+.footer .footer-subscribe .subscribe-desc,
+.footer .contact-desc {
+  font-size: 15px;
+  opacity: 0.5;
+  margin: 15px 0px 15px 0px;
+}
+
+.footer .footer-subscribe .footer-subscribe-bottom {
+  flex: 1;
+}
+.footer .footer-subscribe .footer-subscribe-bottom form > input {
+  flex: 1;
+  width: 250px;
+  height: 42px;
+}
+
+.footer .footer-subscribe .footer-subscribe-bottom form > button {
+  background-color: #000;
+  color: #fff;
+  flex: 1;
+}
+
+.footer .privacy-text {
+  opacity: 0.9;
+  color: #75767c;
+}
+
+.footer .footer-content-bottom .dowland-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+}
+
+/*! responsive */
+@media (max-width: 768px) {
+  .footer .footer-row-wrapper {
+    flex-direction: column;
+    row-gap: 25px;
+  }
+}
+/*footer subscribe end*/
+
+/*footer widgets start*/
+.widgets-row {
+  padding: 60px 0;
+  border-bottom: 1px solid #75767c;
+}
+
+.widgets-row .footer-widgets {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 25px;
+  flex-wrap: wrap;
+}
+.footer-widgets > div {
+  flex: 1;
+}
+
+.footer-widgets > .brand-info {
+  flex: 3;
+}
+
+.footer-widgets .brand-info .footer-desc {
+  width: 250px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.footer-widgets .brand-info .footer-contact {
+  width: 400px;
+  font-size: 14px;
+}
+
+.footer-widgets .widget-nav-menu h4 {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.footer-widgets .widgets-nav-menu ul {
+  margin-top: 20px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+/*footer widgets end*/
+
+/*footer Copyrigth*/
+.footer-copyright {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+}
+.footer-copyright .sitecopyright {
+  font-size: 12px;
+  margin-right: 17px;
+}
+
+.footer-copyright .footer-menu {
+  margin-left: auto;
+}
+
+.footer-copyright .footer-menu-list {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  column-gap: 10px;
+}
+/*footer Copyrigth*/
+
+/*!footer widgets responsive */
+@media (max-width: 768px) {
+  .footer-widgets {
+    row-gap: 25px;
+  }
+  .footer-widgets .brand-info .footer-desc {
+    width: 350px;
+  }
+  .footer-copyright {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+    text-align: center;
+  }
+  .footer-copyright .footer-menu {
+    margin: auto;
+  }
+}
+
+/*footer subscribe end*/

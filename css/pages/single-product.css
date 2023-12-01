@@ -1,0 +1,31 @@
+.single-topbar {
+  margin-top: 30px;
+}
+
+.single-content {
+  margin: 30px 0;
+}
+
+.single-content .side-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*responsive single-product*/
+
+@media (max-width: 768px) {
+  .side-main {
+    flex-direction: column;
+  }
+  .side-main .product-gallery,
+  .side-main .product-info {
+    width: 100%;
+    padding: 0;
+  }
+  .side-main .product-info {
+    margin-top: 25px;
+  }
+  .product-info form .values-list span {
+    padding: 8px 22px;
+  }
+}

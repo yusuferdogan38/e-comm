@@ -1,0 +1,44 @@
+/*Comment item start*/
+
+.tab-panel-reviews h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tab-panel-reviews .comments-avatar img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.tab-panel-reviews .comments .comments-item {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.tab-panel-reviews .comments-star {
+  display: flex;
+  color: gold;
+  gap: 3px;
+  font-size: 15px;
+}
+
+.tab-panel-reviews .comments-star :hover {
+  cursor: pointer;
+}
+
+.tab-panel-reviews .comment-meta {
+  font-size: 15px;
+}
+
+.tab-panel-reviews .comment-desc {
+  font-size: 15px;
+}
+
+/*Comment item end*/
+
+/*Comment Form start*/
+/*Comment Form End*/

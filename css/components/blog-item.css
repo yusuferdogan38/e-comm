@@ -1,0 +1,30 @@
+.blogs .blog-list .blog-info {
+  text-align: center;
+  border: solid 1px white;
+}
+
+.blogs .blog-list .blog-info .blog-info-top {
+  margin: 10px;
+  opacity: 0.5;
+}
+.blogs .blog-list .blog-info .blog-info-center {
+  margin: 10px;
+}
+.blogs .blog-list .blog-info .blog-info-bottom {
+  margin: 12px;
+}
+.blogs .blog-list .blog-info a {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  transition: ease 0.2s color;
+}
+.blogs .blog-list .blog-info a:hover {
+  color: #1367ef;
+  border-bottom: 2.2px solid #1367ef;
+  padding-bottom: 3.5px;
+}
+.blogs .blog-item .blog-image {
+  width: 100%;
+  display: flex;
+}

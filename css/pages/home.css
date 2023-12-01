@@ -1,0 +1,113 @@
+.section-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 30px 30px;
+}
+
+/* categories start */
+
+.categories {
+  margin: 40px 0;
+}
+
+.categories .category-list {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+/* categories end */
+
+/*!products start */
+
+.product {
+  margin-bottom: 40px;
+}
+.product .product-list {
+  /* display: flex;
+  gap: 0px;
+  flex-wrap: wrap; */
+}
+/*!products end */
+
+/*campaign start */
+.campaigns .campaigns-wrapper {
+  display: flex;
+  gap: 15px;
+  padding-top: 5px;
+  margin: 25px 0;
+  flex-wrap: wrap;
+}
+/* campaign end*/
+
+/* blog start*/
+.blogs .blog-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+/* blog end*/
+
+/*blog responsive start*/
+@media (max-width: 768px) {
+  .blogs .blog-list {
+    grid-template-columns: 1fr;
+  }
+  .policy .policy-list {
+    flex-direction: column;
+  }
+}
+/*blog responsive end*/
+
+/* Brands Start*/
+
+.brands {
+  margin: 40px 0px;
+}
+.brands .brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 15px;
+  border: 1px solid #dee0ea;
+  row-gap: 18px;
+}
+
+.brands .brand-list .brands-item {
+  opacity: 0.4;
+  transition: ease 0.4s all;
+}
+.brands .brand-list .brands-item:hover {
+  opacity: 1;
+}
+/* Brands end*/
+
+/*policy start */
+
+.policy {
+  border: 1px solid #dee0ea;
+  margin-top: 40px;
+}
+.policy .policy-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.policy .policy-list .policy-item {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.policy .policy-item .policy-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.policy .policy-item i {
+  font-size: 50px;
+  display: flex;
+}
+/*policy end */

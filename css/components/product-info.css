@@ -1,0 +1,175 @@
+.side-main .product-info {
+  width: 50%;
+  padding-left: 20px;
+}
+
+.side-main .product-title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.product-info .producy-review {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.product-info .producy-review .product-star {
+  display: flex;
+  color: gold;
+  margin: 10px 0 10px 0;
+}
+.product-info .producy-review .product-star i:hover {
+  cursor: pointer;
+}
+
+.product-info .producy-review .product-star li {
+  padding: 4px;
+}
+
+.product-info .producy-review span {
+  margin-left: 15px;
+  opacity: 0.6;
+}
+
+.product-info .product-price {
+  display: flex;
+  margin-bottom: 12px;
+}
+.product-info .product-price s {
+  opacity: 0.5;
+  margin-right: 10px;
+}
+
+.product-info .product-price strong {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.product-info .product-desc p {
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.product-info form .variations .colors .colors-label span {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.product-info form .colors-wrapper {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.product-info form .colors-wrapper {
+  border: 1px solid transparent;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.product-info form .color-wrapper label {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.product-info form .colors .color-wrapper label:hover {
+  border: 2px solid black;
+}
+
+.product-info .colors .color-wrapper .color-blue {
+  background-color: blue;
+  width: 35px;
+  height: 35px;
+}
+.product-info .colors .color-wrapper .color-red {
+  background-color: red;
+  width: 35px;
+  height: 35px;
+}
+.product-info .colors .color-wrapper .color-yellow {
+  background-color: yellow;
+  width: 35px;
+  height: 35px;
+}
+.product-info .colors .color-wrapper .color-green {
+  background-color: green;
+  width: 35px;
+  height: 35px;
+}
+
+.product-info form .color-wrapper input[type="radio"] {
+  appearance: none;
+}
+
+.product-info form .values-label {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.product-info form .values-list {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.product-info form .values-list span {
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  padding: 8px 40px;
+  border: 1px solid #dee0ea;
+}
+.product-info form .values-list span:hover {
+  cursor: pointer;
+  background-color: #e51414;
+  color: white;
+}
+
+.product-info form .cart-button {
+  display: flex;
+  gap: 19px;
+  margin-bottom: 35px;
+}
+.site-main .cart-button button:disabled {
+  background-color: #1367ef;
+  color: #fff;
+  border-color: #1367ef;
+}
+
+.product-info form .cart-button input {
+  width: 80px;
+}
+.product-info form .cart-button button {
+  width: 100%;
+}
+
+.product-info .product-extra-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0 20px 0;
+}
+
+.product-info .product-extra-buttons a {
+  font-size: 15px;
+  color: grey;
+  transition: 0.2s ease all;
+}
+
+.product-info .product-extra-buttons a:hover {
+  font-size: 15px;
+  color: black;
+}
+
+.product-info .divider {
+  margin-top: 20px;
+  padding: 20px 0 20px 0;
+  border-top: 1px solid #dee0ea;
+  border-bottom: 1px solid #dee0ea;
+}
